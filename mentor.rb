@@ -11,12 +11,8 @@ end
 
 class RailsMentor < Mentor
  
-  def initialize(suffix)
-    @suffix = suffix
-  end
-  
   def job
-    puts"#{@suffix}です。私はRubyとRailsでWebアプリケーションを作ります。"
+    puts"#{@name}です。私はRubyとRailsでWebアプリケーションを作ります。"
   end
 end
 kirameki = Mentor.new('煌木')
